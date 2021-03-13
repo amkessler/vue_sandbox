@@ -14,7 +14,7 @@ const app = Vue.createApp({
             this.title = mytitle
         },
         toggleShowBooks() {
-            this.showBooks = false
+            this.showBooks = !this.showBooks
         }
 
     }
