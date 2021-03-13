@@ -3,8 +3,8 @@ const app = Vue.createApp({
     data() {
         return {
             showBooks: true,
-            title: 'The Final Empire',
-            author: 'Brandon Sanderson',
+            title: 'Pride and Prejudice',
+            author: 'Jane Austen',
             age: 45
         }
     },
