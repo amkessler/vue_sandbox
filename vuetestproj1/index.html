@@ -16,13 +16,14 @@
 
         <button @click="toggleShowBooks">
             <span v-if="showBooks">Hide Books</span>
-            <span v-if="!showBooks">Show Books</span>
+            <span v-else>Show Books</span>
         </button>
 
 
         <br>
         <button v-on:click="age++">Increase Age</button>
         <button v-on:click="age--">Decrease Age</button>
+        <p></p>
         <div @click="changeTitle('Patriot Games')">Change book title</div>
 
 
