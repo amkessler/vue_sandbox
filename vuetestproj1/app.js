@@ -1,25 +1,19 @@
 const app = Vue.createApp({
-    //data, functions
     data() {
-        return {
-            showBooks: true,
-            title: 'Pride and Prejudice',
-            author: 'Jane Austen',
-            age: 45
-        }
+      return {
+        showBooks: true,
+        books: [
+          { title: 'name of the wind', author: 'patrick rothfuss' },
+          { title: 'the way of kings', author: 'brandon sanderson' },
+          { title: 'the final empire', author: 'brandon sanderson' },
+        ],
+      }
     },
     methods: {
-        changeTitle(mytitle) {
-            //this.title = 'Words of Radiance' 
-            this.title = mytitle
-        },
-        toggleShowBooks() {
-            this.showBooks = !this.showBooks
-        }
-
+      toggleShowBooks() {
+        this.showBooks =  !this.showBooks
+      },
     }
-
-
-})
-
-app.mount('#app')
+  })
+  
+  app.mount('#app')
