@@ -14,25 +14,21 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  max-width: 960px;
+  margin: 0 auto;
 }
-
 #nav {
-    padding:0;  
-    background: #201f1f;  
-    font-family:Arial, sans serif;  
-    font-size:12px;  
-    text-transform:uppercase;
+  padding: 30px;
 }
-
 #nav a {
-    display:inline-block;  
-    padding:10px;  
-    color:white;  
-    text-decoration:none;
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
 }
-
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: white;
+  background: crimson;
 }
-
 </style>
